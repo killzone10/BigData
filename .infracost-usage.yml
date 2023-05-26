@@ -1,0 +1,19 @@
+version: 0.1
+resource_usage:
+  google_storage_bucket.tbd-staging-bucket:
+    storage_gb: 100                   # Total size of bucket in GB.
+    monthly_class_a_operations: 40000 # Monthly number of class A operations (object adds, bucket/object list).
+    monthly_class_b_operations: 20000 # Monthly number of class B operations (object gets, retrieve bucket/object metadata).
+    monthly_data_retrieval_gb: 1000
+    monthly_egress_data_transfer_gb:
+      same_continent: 550
+      worldwide: 12500 
+      asia: 1500
+      china: 50 
+      australia: 250
+    
+#   google_storage_bucket.tbd-state-bucket:
+#     storage_gb: 50                 # Total size of bucket in GB.
+#     monthly_class_a_operations: 20000 # Monthly number of class A operations (object adds, bucket/object list).
+#     monthly_class_b_operations: 10000 # Monthly number of class B operations (object gets, retrieve bucket/object metadata).
+#     monthly_data_retrieval_gb: 500
