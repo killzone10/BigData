@@ -1,7 +1,6 @@
 # TBD Project
 
-The main idea of the project was how to work with GCP, terraform, Kubernetes, Docker.
-The main idea of the project was to create the machine learning pipeline.
+The main idea of the project was how to work with GCP, terraform, Kubernetes, Docker and knowing that  machine learning pipeline had to be created.
 
 Project was divided on a few steps:
     - 1a creating the proper work environment on GCP (accounts, access, budgets, autoscaling and other things), all  was done with terminal and terraform 
@@ -18,3 +17,8 @@ dataproc-pyspark-job - creates a cluster with master and worker nodes and execut
 gke - kubernetes cluster on gke.
 and outside  k8s-spark-operator - this one lets kubernetes clusters execute our pyspark job which is located in: 
 src/py/pyskarp_job_py.tpl
+Structure of modules:
+![dataproc](dataproc.svg)
+![gke](gke.svg)
+![data_generator](data_generator.svg)
+![Entire structure](graph.svg)
