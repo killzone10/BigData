@@ -1,6 +1,6 @@
 # TBD Project
 
-The main idea of the project was how to work with GCP, terraform, Kubernetes, Docker and knowing that  machine learning pipeline had to be created.
+The main idea of the project was how to work with GCP, terraform, Kubernetes, Docker and creatubg the   machine learning pipeline.
 
 Project was divided on a few steps:
 - 1a creating the proper work environment on GCP (accounts, access, budgets, autoscaling and other things), all  was done with terminal and terraform, 
